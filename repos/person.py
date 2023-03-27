@@ -14,5 +14,25 @@ def get_people() -> list[Person]:
                 city="Sydney",
                 state=State.NSW,
             ),
-        )
+        ),
+        Person(
+            email="persontwo@gmail.com",
+            name="person two",
+            address=Address(
+                number=2,
+                street="Second Road",
+                city="Brisbane",
+                state=State.QLD,
+            ),
+        ),
+        Person(
+            email="bigboss@hotmail.com",
+            name="Big Boss",
+            address=Address(
+                number=99,
+                street="Zzz Parade",
+                city="Perth",
+                state=State.WA,
+            ),
+        ),
     ]

@@ -54,7 +54,7 @@ Users can use the `curl` tool to send a POST HTTP request with a GraphQL query t
 $ curl "http://localhost:8000/graphql" \
     -H "Content-Type: application/json" \
     -d '{"query": "query{people{address{state}}}"}'
-{"data": {"people": [{"address": {"state": "NSW"}}]}}
+{"data": {"people": [{"address": {"state": "NSW"}}, {"address": {"state": "QLD"}}, {"address": {"state": "WA"}}]}}
 ```
 
 ### GraphiQL
