@@ -5,4 +5,4 @@ from routes.graphql import router as graphql_router
 
 app = FastAPI()
 
-app.include_router(graphql_router)
+app.include_router(graphql_router, prefix="/graphql")
