@@ -9,3 +9,4 @@ class State(str, Enum):
     SA = "SA"
     NT = "NT"
     WA = "WA"
+    ACT = "ACT"
